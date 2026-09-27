@@ -1,10 +1,10 @@
 {
-  "id": "https://chic-manatee-6b1b6c.netlify.app/",
+  "id": "/recharge-manager-test/",
   "name": "Recharge Manager Test",
   "short_name": "Recharge",
   "description": "Recharge Manager PWA installation test",
-  "start_url": "https://chic-manatee-6b1b6c.netlify.app/",
-  "scope": "https://chic-manatee-6b1b6c.netlify.app/",
+  "start_url": "/recharge-manager-test/",
+  "scope": "/recharge-manager-test/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f8fafc",
