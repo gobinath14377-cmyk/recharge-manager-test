@@ -4,19 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Recharge Manager Test</title>
-<link rel="manifest" href="/manifest.webmanifest">
+<link rel="manifest" href="./manifest.webmanifest">
 <meta name="theme-color" content="#0b74de">
-<link rel="icon" href="/icons/icon-192.png" type="image/png">
+<link rel="icon" href="./icon-192.png"
 </head>
 <body style="font-family:Arial;text-align:center;margin:0;padding:48px 20px;background:#f8fafc">
 <div style="max-width:420px;margin:auto;padding:28px;border-radius:20px;background:white;box-shadow:0 4px 20px #0001">
-<img src="/icons/icon-192.png" width="96" height="96" style="border-radius:20px">
+<img src="./icon-192.png"
 <h1>Recharge Manager</h1>
 <p>PWA MIME Test</p>
 <p>Manifest is served as application/manifest+json.</p>
 </div>
 <script>
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js',{scope:'/'}).catch(()=>{});
+navigator.serviceWorker.register('./sw.js'
 </script>
 </body>
 </html>
